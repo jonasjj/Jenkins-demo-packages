@@ -1,7 +1,7 @@
 use std.textio.all;
 use std.env.finish;
 
-package sim is
+package sim
 
   -- Using slow clock to speed up simulation
   constant sim_clk_hz : integer := 100;
